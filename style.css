@@ -18,13 +18,13 @@
 }
 
 body{
+    width: 100vw;
     background-color:var(--cortres);
 }
 
 
 /* header */
 #topo{
-    width: 100%;
     Display: flex;
     flex-flow: row nowrap;
 
