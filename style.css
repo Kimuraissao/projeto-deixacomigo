@@ -48,7 +48,7 @@ body{
 /* o que fazemos */
 
 #conteudo{
-    background-color: var(--corcinco);
+    background-color: var(--cortrescinco);
 }
 
 #intro{
@@ -124,11 +124,12 @@ body{
 }
 
 #exemplo > h2{
+    padding-top:10px;
     padding-left: 5px;
 }
 
 #exemplo > p{
-    padding-left: 5px;
+    padding:15px 0px 15px 5px;
     color:rgba(46, 45, 45, 0.822);
 }
 
@@ -139,7 +140,8 @@ body{
     padding:20px;
     margin-top: 5px;
     border-radius: 8px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.301);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+    margin-bottom:20px;
 }
 
 #exemplo > div > p{
@@ -153,6 +155,100 @@ div#servico{
 
 div#servico > p{
     color:var(--cortres)
+}
+
+/* principais serviços */
+
+#servico{
+     display: flex;
+    flex-flow: column wrap;
+    background-color: var(--cortres);
+    color: var(--cordois);
+}
+
+#servico > h1{
+    text-align: center;
+    color:var(--corum);
+    padding:10px;
+}
+
+#servico > div{
+    background-color:rgba(185, 183, 183, 0.233);
+    width: 70vw;
+    margin-left:50px;
+    padding:20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.397);
+    margin-bottom:20px;
+}
+
+div#compras{
+    background-color: var(--corum);
+    color:var(--cordois);
+}
+
+div#compras > p{
+    color:var(--corquatro);
+}
+
+/* diferenciais */
+
+#diferencial{
+    background-color: var(--cordois);
+    width: 70vw;
+    margin-left: 60px;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside;
+    border-radius: 15px;
+}
+
+#diferencial > h1{
+    color:var(--corum);
+    padding: 20px;
+}
+
+#humano{
+    background-color: var(--cortres);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--corquatro);
+    margin-bottom: 20px;
+}
+
+#regiao{
+     background-color: var(--cortres);
+    align-self:flex-end;
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    color: var(--corquatro);
+    margin-bottom: 20px;    
+}
+
+#seguranca{
+    background-color: var(--cortres);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--corquatro);
+    margin-bottom: 20px;
+}
+
+#burocracia{
+    background-color: var(--corum);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-end;
+    color: var(--cordois);
+    margin-bottom: 20px;
 }
 
 }
