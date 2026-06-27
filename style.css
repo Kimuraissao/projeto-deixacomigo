@@ -41,7 +41,7 @@ body{
 #topo > h1 > p{
     color: var(--corum);
     padding-bottom: 40px;
-    margin:-15px;
+    margin:-10px;
     font-size: 0.6em;
 }
 
@@ -69,7 +69,7 @@ body{
 
 #intro > h2{
     font-size: 1em;
-    padding-top:15px;
+    padding-top:5px;
     color:var(--cordois);
 }
 
@@ -79,7 +79,7 @@ body{
     color:rgba(46, 45, 45, 0.822);
     list-style-position: inside;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 #intro > ul > li{
