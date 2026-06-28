@@ -196,8 +196,8 @@ div#compras > p{
 
 #diferencial{
     background-color: var(--cordois);
-    width: 70vw;
-    margin-left: 60px;
+    width: 78vw;
+    margin-left: 50px;
     display:flex;
     flex-flow: row wrap;
     align-items: center;
@@ -249,6 +249,95 @@ div#compras > p{
     align-self:flex-end;
     color: var(--cordois);
     margin-bottom: 20px;
+}
+
+#recomenda{
+    text-align: center;
+    color: var(--cordois); 
+    margin: 20px;
+}
+
+#recomenda > p{
+    margin-top: -10px;
+}
+
+#atendimento{
+    color:var(--corum);
+    width: 78vw;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside;
+    border-radius: 15px;
+}
+
+#atendimento > h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+#atendimento > p{
+    color: var(--corquatro);
+    flex-direction:row;
+}
+
+#jundi{
+    background-color: var(--corum);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--cordois);
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+#cesar{
+    background-color: var(--corum);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--cordois);
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+#bras{
+    background-color: var(--corum);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--cordois);
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+ #mogi{
+    background-color: var(--corum);
+    padding:20px;
+    border-radius:20px;
+    border: 1px solid black;
+    align-self:flex-start;
+    color: var(--cordois);
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+#correria{
+    background-color: var(--cordois);
+    width: 78vw;
+    margin-left: 50px;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 }
